@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p style="font-weight: bold ;">Khảo sát thị trường</p>
+        <p>Bạn bao nhiêu tuổi: </p>
+        <select name="age" id="" style="width: 40%;">
+           <option value="18-24">18-24</option>
+           <option value="25-34">25-34</option>
+           <option value="35-44">35-44</option>
+           <option value="45-54">45-54</option>
+           <option value="55+">55+</option>
+        </select>
+
+        <p>Hiện tại thu nhập của bạn bao nhiêu (trên giờ): </p>
+        <select name="income" id="" style="width: 40%;">
+            <option value="0-25k">0 - 25k</option>
+            <option value="25k-50k">25k - 50k</option>
+            <option value="50k-75k">50k - 75k</option>
+            <option value="75k-100k">75k - 100k</option>
+            <option value="100k+">100k+</option>
+        </select>
+        <p>Giới tính: </p>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Nam</label><br>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Nữ</label><br>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">Khác</label><br>
+        <input type="text" name="" id="" placeholder="Tối đa 250 từ.">
+
+        <p>Bạn đã mua những sản phẩm nào dưới đây? Chọn tất cả các sản phẩm đã mua: </p>
+        <input type="checkbox" name="product" id="product1" value="product1">
+        <label for="product1">Sản phẩm 1</label><br>
+        <input type="checkbox" name="product" id="product2" value="product2">
+        <label for="product2">Sản phẩm 2</label><br>
+        <input type="checkbox" name="product" id="product3" value="product3">
+        <label for="product3">Sản phẩm 3</label><br>
+
+        <p>Bạn định dùng sản phẩm của chúng tôi như thế nào?: </p>
+        <input type="radio" name="frequency" id="daily" value="daily">
+        <label for="daily">Thường xuyên</label><br>
+        <input type="radio" name="frequency" id="weekly" value="weekly">
+        <label for="weekly">Hàng tuần</label><br>
+        <input type="radio" name="frequency" id="monthly" value="monthly">
+        <label for="monthly">Hàng tháng</label><br>
+        
+        <p>Bạn muốn trả bao nhiêu tiền cho sản phẩm này?: </p>
+        <input type="number" name="price" id="price"  style="width: 80px;">₫
+
+        <p>Bạn muốn thấy những tính năng gì trong sản phẩm của chúng tôi?: </p>
+        <textarea name="features" id="features" cols="30" rows="10" ></textarea><br>
+        
+        <input type="submit" value="Gửi survey">
+    </form>
+</body>
+</html>
